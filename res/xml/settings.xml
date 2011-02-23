@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory android:title="@string/category_monitoring">
+		<CheckBoxPreference android:summaryOn="@string/enabled_summary"
+			android:title="@string/enable_title" android:key="monitoringEnabled"
+			android:summaryOff="@string/disabled_summary"></CheckBoxPreference>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/category_times">
+		<v.sched.preference.TimePickerPreference
+			android:key="startNightTime" android:title="@string/start_time_title">
+		</v.sched.preference.TimePickerPreference>
+
+		<v.sched.preference.TimePickerPreference
+			android:key="endNightTime" android:title="@string/end_time_title">
+		</v.sched.preference.TimePickerPreference>
+
+	<CheckBoxPreference android:summary="@string/timesOnSameDay_desc" android:title="@string/timesOnSameDay_title" android:key="timesOnSameDay" android:defaultValue="false"></CheckBoxPreference>
+</PreferenceCategory>
+
+	<PreferenceCategory android:title="@string/category_actions">
+		<CheckBoxPreference android:summaryOn="@string/action_manage_volume_desc_on"
+			android:key="manageVolume" android:summaryOff="@string/action_manage_volume_desc_off"
+			android:title="@string/action_manage_volume"></CheckBoxPreference>
+		<CheckBoxPreference android:summaryOn="@string/action_manage_backlight_desc_on"
+			android:key="manageBacklight" android:summaryOff="@string/action_manage_backlight_desc_off"
+			android:title="@string/action_manage_backlight"></CheckBoxPreference>
+		<CheckBoxPreference android:summaryOn="@string/action_manage_flight_mode_on"
+			android:title="@string/action_manage_flight_mode" android:summaryOff="@string/action_manage_flight_mode_off"
+			android:key="manageFlight"></CheckBoxPreference>
+	
+</PreferenceCategory>
+	<PreferenceCategory android:title="@string/category_info">
+		<Preference android:title="@string/category_info_about"
+			android:summary="@string/category_info_about_desc"></Preference>
+		<Preference android:title="@string/category_info_author"
+			android:summary="@string/category_info_author_desc" android:key="author"></Preference>
+	</PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="timesOnSameDay_badTimeSequence_DisablingSameDay">Start time must start before End time. Disabling Same Day setting</string>
+	<string name="timesOnSameDay_badTimeSequence">Start time must start before End time</string>
+    <string name="timesOnSameDay_desc">Start and End times are scheduled on same day</string>
+    <string name="timesOnSameDay_title">Same day</string>
+    <string name="category_info_author_desc">Vincenzo Gammieri (vincenzo.gammieri@gmail.com)</string>
+    <string name="category_info_author">Author</string>
+    <string name="category_info_about_desc">No more noise while sleeping...</string>
+    <string name="category_info_about">About</string>
+    <string name="category_info">Info</string>
+    <string name="action_manage_flight_mode_off">Turn off Airplane</string>
+    <string name="action_manage_flight_mode_on">Turn on Airplane</string>
+    <string name="action_manage_flight_mode">Airplane Mode</string>
+    <string name="action_manage_backlight">Change backlight</string>
+    <string name="action_manage_volume">Change volume</string>
+    <string name="action_manage_volume_desc_off">Don\'t manage volumes</string>
+    <string name="action_manage_volume_desc_on">Turn off volume</string>
+    <string name="action_manage_backlight_desc_off">Don\'t manage backlight</string>
+    <string name="action_manage_backlight_desc_on">Dim backlight</string>
+    <string name="category_actions">Actions</string>
+    <string name="enable_title">Enable time monitoring</string>
+    <string name="disabled_summary">Time monitoring disabled</string>
+    <string name="enabled_summary">Time monitoring enabled</string>
+    <string name="hello">QuiteNight!</string>
+    <string name="app_name">QuiteNight</string>
+    <string name="start_time_title">Start Time (Today)</string>
+    <string name="end_time_title">End Time (Tomorrow)</string>
+    <string name="category_monitoring">Monitoring settings</string>
+    <string name="category_times">Time settings</string>
+    <string name="toast_start_night">Night start at</string>
+    <string name="toast_end_night">Night ends at</string>
+</resources>

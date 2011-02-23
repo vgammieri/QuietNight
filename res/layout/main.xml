@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<activity xmlns:android="http://schemas.android.com/apk/res/android"
+	 android:theme="@android:style/Theme.Translucent.NoTitleBar" />
